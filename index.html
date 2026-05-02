@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Julia Ivanova</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <img src="images/Logo2.JPG" alt="Logo" class="logo">
+    <a onclick="showSection('home')">Home</a>
+    <a onclick="showSection('about')">About</a>
+    <a onclick="showSection('ink')">Ink</a>
+    <a onclick="showSection('linoleum')">Linoleum</a>
+    <a onclick="showSection('illustration')">Illustration</a> 
+    <a onclick="showSection('contact')">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section active">
+    <h1>Julia Ivanova</h1>
+    <p>Art & (Scientific) Illustrations</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <img src="images/portrait.jpg" alt="About Julia" width="400" class="about-image">
+    <div class="text-section">
+      <p>Hi, I'm Julia!<br> I enjoy art and like to create fun designs using different media. Recently, I have been experimenting with ink and linoleum prints. As a scientist, I appreciate effective and attention-grabbing scientific illustrations. In general, I like to focus on the beautiful things in life and bring the hidden, interesting details in to focus.</p>
+    </div>
+  </section>
+
+  <!-- Ink (Ink) Section -->
+  <section id="ink" class="section">
+    <h2>Ink</h2>
+    <p>Watersoluble, black ink dissolves into brown pigments<br> which provide natural shading and depth.  </p>
+    <video class="ink-video" width="400" autoplay loop muted>
+      <source src="images/videos/vid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p class="section-text">Here you can find steps in fresh snow,<br> more or less acurate portraits or abstract compositions.</p>
+    
+    <!-- Swipeable Image Carousel 1 -->
+    <div class="swipe-carousel" data-carousel="1">
+      <div class="swipe-container" id="swipeContainer-1">
+        <img src="images/INK/IMG_0144.webp" alt="Ink work 1" class="swipe-image">
+        <img src="images/INK/IMG_0149.webp" alt="Ink work 1.2" class="swipe-image">
+      </div>
+      <div class="swipe-indicator">
+        <span class="dot active" id="dot-1-0"></span>
+        <span class="dot" id="dot-1-1"></span>
+      </div>
+    </div>
+    <div class="text-section"><p>steps in fresh snow</p></div>
+    <div class="image-grid">
+      <img src="images/INK/IMG_0145.webp" alt="Ink work 2">
+      <img src="images/INK/IMG_0139.webp" alt="Ink work 3">
+      <div class="text-section"><p>flower girl</p></div>
+      <img src="images/INK/IMG_0141.webp" alt="Ink work 4">
+      <div class="text-section"><p>sketch</p></div>
+      <img src="images/INK/IMG_0142.webp" alt="Ink work 5">
+      <div class="text-section"><p>geese at the canal of Utrecht</p></div>
+    </div>
+
+    <!-- Swipeable Image Carousel 2 -->
+    <div class="swipe-carousel" data-carousel="2">
+      <div class="swipe-container" id="swipeContainer-2">
+        <img src="images/INK/IMG_0151.webp" alt="Ink work 5" class="swipe-image">
+        <img src="images/INK/IMG_0143.webp" alt="Ink work 5.2" class="swipe-image">
+      </div>
+      <div class="swipe-indicator">
+        <span class="dot active" id="dot-2-0"></span>
+        <span class="dot" id="dot-2-1"></span>
+      </div>
+    </div>
+
+    <div class="image-grid">
+      <img src="images/INK/IMG_0153.webp" alt="Ink work 6">
+    </div>
+
+  </section>
+
+  <!-- Linoleum Section -->
+  <section id="linoleum" class="section">
+    <h2>Linoleum</h2>
+    <p>Linocut is a relief printing method using carved linoleum blocks.<br> 
+    The relief is colored and printed on white paper. The print itself is 10.5 x 15 cm².</p>
+    <div class="image-grid">
+        <img src="images/LINOL/IMG_0147.webp" alt="let it grow">
+        <div class="text-section"><p>let it grow</p></div>
+        <img src="images/LINOL/IMG_0146.webp" alt="stromboli">
+        <div class="text-section"><p>stromboli</p></div>
+        <img src="images/LINOL/IMG_0155.webp" alt="lake">
+        <div class="text-section"><p>lake</p></div>
+    </div>
+  </section>
+
+  <!-- Illustration Section -->
+  <section id="illustration" class="section">
+    <h2>Illustration</h2>
+    <p>Illustrations and animations were made with Adobe Illustrator and Procreate</p>
+     <div class="image-grid">
+        <img src="images/ILLU/IMG_0190.gif" alt="Illustration animation" width="400">
+        <img src="images/ILLU/IMG_0191.PNG" alt="let it grow">  
+        <img src="images/ILLU/IMG_0192.PNG" alt="stromboli">  
+        <img src="images/ILLU/IMG_0193.PNG" alt="lake">
+        <div class="text-section"><p>the big dinosorryus</p></div>
+    </div>
+
+<div class="swipe-carousel" data-carousel="3">
+      <div class="swipe-container" id="swipeContainer-3">
+        <img src="images/ILLU/pink.webp" alt="Ink work 5" class="swipe-image">
+        <img src="images/ILLU/blue.webp" alt="Ink work 5.2" class="swipe-image">
+      </div>
+      <div class="swipe-indicator">
+        <span class="dot active" id="dot-3-0"></span>
+        <span class="dot" id="dot-3-1"></span>
+      </div>
+    </div>
+<div class="text-section"><p>a logo for a friend of mine</p></div>
+     <div class="image-grid">
+        <img src="images/ILLU/ente.png" alt="lake">
+        <div class="text-section"><p>a flag representing the ducks - favorite animal - ability to master all elements: water (blue), earth (white), air (yellow like the sun)</p></div>
+        <img src="images/ILLU/IMG_0194.PNG" alt="lake">
+        <img src="images/ILLU/bac.png" alt="lake">
+        <div class="text-section"><p>a colleague of mine fights off bacteria with engineered viruses</p></div>
+        <img src="images/ILLU/IMG_0195.PNG" alt="lake">
+        <img src="images/ILLU/IMG_0189.gif" alt="Illustration animation" width="200">
+        <div class="text-section"><p>cell death - apoptosis</p></div>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Get in touch with me:</p>
+    <a href="mailto:julia.ivi2014@gmail.com" class="email-link">julia.ivi2014@gmail.com</a>
+    <img src="images/PHOTO/IMG_0158_3.webp" alt="Ink work" width="400">
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Julia Ivanova. All rights reserved.</p>
+  </footer>
+
+  <script>
+    let carouselStates = {
+      1: { currentIndex: 0, startX: 0, endX: 0 },
+      2: { currentIndex: 0, startX: 0, endX: 0 },
+      3: { currentIndex: 0, startX: 0, endX: 0 }
+    };
+    let carouselInitialized = false;
+
+    // Detect image orientation on load
+    function detectImageOrientations() {
+      const gridImages = document.querySelectorAll('.image-grid img');
+      gridImages.forEach(img => {
+        img.onload = function() {
+          if (this.height > this.width) {
+            this.classList.add('vertical');
+          }
+        };
+        // For cached images that are already loaded
+        if (img.complete) {
+          if (img.height > img.width) {
+            img.classList.add('vertical');
+          }
+        }
+      });
+    }
+
+    // Run detection when DOM is ready
+    document.addEventListener('DOMContentLoaded', detectImageOrientations);
+
+    function showSection(sectionId) {
+      // Scroll to top
+      window.scrollTo(0, 0);
+      
+      // Hide all sections
+      const sections = document.querySelectorAll('.section');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      
+      // Show the selected section
+      document.getElementById(sectionId).classList.add('active');
+      
+      // Initialize swipe carousels when ink or illustration section is shown
+      if ((sectionId === 'ink' || sectionId === 'illustration') && !carouselInitialized) {
+        initializeSwipeCarousels();
+        carouselInitialized = true;
+      }
+    }
+
+    function initializeSwipeCarousels() {
+      [1, 2, 3].forEach(carouselNum => {
+        const swipeContainer = document.getElementById(`swipeContainer-${carouselNum}`);
+        if (!swipeContainer) return;
+        
+        swipeContainer.addEventListener('touchstart', (e) => handleSwipeStart(e, carouselNum), false);
+        swipeContainer.addEventListener('touchend', (e) => handleSwipeEnd(e, carouselNum), false);
+        swipeContainer.addEventListener('mousedown', (e) => handleSwipeStart(e, carouselNum), false);
+        swipeContainer.addEventListener('mouseup', (e) => handleSwipeEnd(e, carouselNum), false);
+        swipeContainer.addEventListener('click', (e) => handleClick(e, carouselNum), false);
+      });
+    }
+
+    function handleSwipeStart(e, carouselNum) {
+      carouselStates[carouselNum].startX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+    }
+
+    function handleSwipeEnd(e, carouselNum) {
+      carouselStates[carouselNum].endX = e.type.includes('touch') ? e.changedTouches[0].clientX : e.clientX;
+      handleSwipe(carouselNum);
+    }
+
+    function handleSwipe(carouselNum) {
+      const state = carouselStates[carouselNum];
+      const swipeContainer = document.getElementById(`swipeContainer-${carouselNum}`);
+      const swipeImages = swipeContainer.querySelectorAll('.swipe-image');
+      const threshold = 50;
+      const diff = state.startX - state.endX;
+
+      if (Math.abs(diff) > threshold) {
+        if (diff > 0) {
+          // Swiped left - next image
+          state.currentIndex = (state.currentIndex + 1) % swipeImages.length;
+        } else {
+          // Swiped right - previous image
+          state.currentIndex = (state.currentIndex - 1 + swipeImages.length) % swipeImages.length;
+        }
+        updateSwipeCarousel(carouselNum);
+      }
+    }
+
+    function updateSwipeCarousel(carouselNum) {
+      const state = carouselStates[carouselNum];
+      const swipeContainer = document.getElementById(`swipeContainer-${carouselNum}`);
+      const dots = document.querySelectorAll(`#dot-${carouselNum}-0, #dot-${carouselNum}-1`);
+      
+      swipeContainer.style.transform = `translateX(-${state.currentIndex * 100}%)`;
+      
+      dots.forEach(dot => dot.classList.remove('active'));
+      document.getElementById(`dot-${carouselNum}-${state.currentIndex}`).classList.add('active');
+    }
+
+    function handleClick(e, carouselNum) {
+      e.stopPropagation();
+      const swipeContainer = document.getElementById(`swipeContainer-${carouselNum}`);
+      const containerRect = swipeContainer.getBoundingClientRect();
+      const clickX = e.clientX - containerRect.left;
+      const containerWidth = containerRect.width;
+      
+      // If click is on the right side (right 50%), go to next image
+      if (clickX > containerWidth / 2) {
+        const swipeImages = swipeContainer.querySelectorAll('.swipe-image');
+        carouselStates[carouselNum].currentIndex = (carouselStates[carouselNum].currentIndex + 1) % swipeImages.length;
+        updateSwipeCarousel(carouselNum);
+      }
+    }
+  </script>
+</body>
+</html>
